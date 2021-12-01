@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+.header h1 {
+    color: #f9faf8;
+    font-size: 24px;
+    
+}
+
+.header a {
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
