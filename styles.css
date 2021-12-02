@@ -1,6 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+
+
 }
 
 .header, 
@@ -38,11 +42,6 @@ ul {
     align-items: center;
     flex: 1;
     padding: 64px;
-    
-    
-    
-    
-
 }
 
 .top h1{
@@ -50,8 +49,7 @@ ul {
     font-weight: bolder;
     font-size: 48px;
     display: flex;
-    width: 300px;
-    
+    width: 300px;   
 }
 
 .top p{
@@ -61,7 +59,7 @@ ul {
 
 }
 
-.sign-up{
+.top .sign-up{
     background: #3882f6;
     color: #e5e7eb;
     padding: 5px 10px 10px 10px;  
@@ -111,3 +109,110 @@ ul {
     margin: 10px;
 }
 
+.bottom {
+    background-color: #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 64px;
+    
+}
+
+.bottom p {
+    display: flex;
+
+   
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.author {
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    font-weight:bolder;
+}
+
+
+.pre-footer {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 48px 48px;
+    
+    
+}
+.cta {
+    background: #3882f6;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 60%;
+    height: 80%;
+    padding: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cta .left {
+    display: flex;
+    align-items:center;
+    margin-left: 11%;
+    /*padding-left: 30%;
+    padding-top: 24px;*/
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+
+}
+.left h4 {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-style: bolder;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.cta p {
+    color: #e5e7eb; 
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    margin: 0;
+    margin-left: 11%;
+    
+    
+    
+
+}
+
+
+.cta-sign-up {
+    background: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 10px 10px 10px;  
+    font-weight:bold;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 25%;
+
+}
+
+.footer {
+    flex: 1;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
